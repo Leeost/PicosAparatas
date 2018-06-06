@@ -1,5 +1,7 @@
 package PizzaMaker;
 
+import java.util.Scanner;
+
 public class Products {
     private double pizzaPad;
     private double cheese;
@@ -15,12 +17,30 @@ public class Products {
         this.tomatoes = tomatoes;
     }
 
-    public void addProducts(Products another) {
-        this.setPizzaPad(this.getPizzaPad() + another.getPizzaPad());
-        this.setCheese(this.getCheese() + another.getCheese());
-        this.setPizzaSauce(this.getPizzaSauce() + another.getPizzaSauce());
-        this.setSausage(this.getSausage() + another.getSausage());
-        this.setTomatoes(this.getTomatoes() + another.getTomatoes());
+    public void addProducts() {
+        System.out.println("Add products to Pizza Maker");
+        Scanner pizzaMakerInput = new Scanner(System.in);
+
+        System.out.println("Pizza pads:");
+        double pizzaPad = pizzaMakerInput.nextInt();
+
+        System.out.println("Cheese:");
+        double cheese = pizzaMakerInput.nextInt();
+
+        System.out.println("Pizza sauce:");
+        double pizzaSauce = pizzaMakerInput.nextInt();
+
+        System.out.println("Sausages:");
+        double sausage = pizzaMakerInput.nextInt();
+
+        System.out.println("Tomatoes:");
+        double tomatoes = pizzaMakerInput.nextInt();
+
+        this.setPizzaPad(this.getPizzaPad() + pizzaPad);
+        this.setCheese(this.getCheese() + cheese);
+        this.setPizzaSauce(this.getPizzaSauce() + pizzaSauce);
+        this.setSausage(this.getSausage() + sausage);
+        this.setTomatoes(this.getTomatoes() + tomatoes);
     }
 
     public void substractProducts(Products another) {

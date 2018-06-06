@@ -6,5 +6,5 @@ import PizzaMaker.Products;
 public interface InterfacePizzaMaker {
    public Pizza makePizza(String pizzaName, int pizzaSize);
 
-   public void refillProducts(Products products);
+   //public void refillProducts(Products products);
 }

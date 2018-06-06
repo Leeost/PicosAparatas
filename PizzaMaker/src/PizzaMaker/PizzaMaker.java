@@ -22,13 +22,13 @@ public class PizzaMaker implements InterfacePizzaMaker {
 
         if (pizzaSize == 20 || pizzaSize == 30 || pizzaSize == 40) {
             switch (pizzaName) {
-                case "Margherita":
+                case "margherita":
                     pizza = new PizzaMargherita();
                     break;
-                case "Pepperoni":
+                case "pepperoni":
                     pizza = new PizzaPepperoni();
                     break;
-                case "Vegetariana":
+                case "vegetariana":
                     pizza = new PizzaVegetariana();
                     break;
                 default:
@@ -41,23 +41,28 @@ public class PizzaMaker implements InterfacePizzaMaker {
         }
         if (this.products.checkProductsIfEnough(pizza.getRecipe().getUsableProducts(pizzaSize)) == false) {
             System.out.println(getProducts());
+
+            refillProducts();
+
             return pizza = null;
+
 
         } else if (pizza != null) {
             this.products.substractProducts(pizza.getRecipe().getUsableProducts(pizzaSize));
+
             System.out.println("Pizza " + pizza.getPizzaName() + " is ready!");
 
             rewashPizzaMaker();
+
 
         }
         return pizza;
     }
 
 
-    @Override
-    public void refillProducts(Products products) {
-        this.products.addProducts(products);
-        System.out.println("Products were refilled");
+    public void refillProducts() {
+        this.products.addProducts();
+        System.out.println("Products were refilled!");
 
     }
 

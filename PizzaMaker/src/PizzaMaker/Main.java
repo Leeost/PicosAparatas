@@ -27,32 +27,27 @@ public class Main {
 
         System.out.println("Tomatoes:");
         double tomatoes = pizzaMakerInput.nextInt();
-        System.out.println("");
 
-        InterfacePizzaMaker pizzaMaker = new PizzaMaker(new Products(pizzaPad, cheese,pizzaSauce,sausage,tomatoes));
+        InterfacePizzaMaker pizzaMaker = new PizzaMaker(new Products(pizzaPad, cheese, pizzaSauce, sausage, tomatoes));
 
         boolean turnOn = true;
         do {
             System.out.println("Enter pizza type: Margherita, Pepperoni or Vegetariana");
-            System.out.println("");
-
 
             Scanner screenInput = new Scanner(System.in);
             String pizzaNameInput = screenInput.next();
-            System.out.println("");
+
             System.out.println("Enter pizza size: 20, 30 or 40 cm");
             int pizzaSizeInput = pizzaMakerInput.nextInt();
 
-            pizzaMaker.makePizza(pizzaNameInput, pizzaSizeInput);
+            pizzaMaker.makePizza(pizzaNameInput.toLowerCase(), pizzaSizeInput);
             System.out.println("");
 
-            System.out.println("");
 
 
         }
         while (turnOn);
     }
-
 }
 
 
