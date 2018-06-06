@@ -6,6 +6,8 @@ import PizzaMaker.PizzaRecipes.PizzaMargherita;
 import PizzaMaker.PizzaRecipes.PizzaPepperoni;
 import PizzaMaker.PizzaRecipes.PizzaVegetariana;
 
+import java.util.Scanner;
+
 public class PizzaMaker implements InterfacePizzaMaker {
 
     private Products products;
@@ -40,7 +42,8 @@ public class PizzaMaker implements InterfacePizzaMaker {
             return pizza = null;
         }
         if (this.products.checkProductsIfEnough(pizza.getRecipe().getUsableProducts(pizzaSize)) == false) {
-            System.out.println(getProducts());
+
+            System.out.println(products.toString());
 
             refillProducts();
 
@@ -61,13 +64,28 @@ public class PizzaMaker implements InterfacePizzaMaker {
 
 
     public void refillProducts() {
-        this.products.addProducts();
+        System.out.println("Add products to Pizza Maker");
+        Scanner pizzaMakerInput = new Scanner(System.in);
+
+        System.out.println("Pizza pads:");
+        double pizzaPad = pizzaMakerInput.nextInt();
+
+        System.out.println("Cheese:");
+        double cheese = pizzaMakerInput.nextInt();
+
+        System.out.println("Pizza sauce:");
+        double pizzaSauce = pizzaMakerInput.nextInt();
+
+        System.out.println("Sausages:");
+        double sausage = pizzaMakerInput.nextInt();
+
+        System.out.println("Tomatoes:");
+        double tomatoes = pizzaMakerInput.nextInt();
+
+        this.products.addProducts(pizzaPad, cheese, pizzaSauce, sausage, tomatoes);
+
         System.out.println("Products were refilled!");
 
-    }
-
-    private Products getProducts() {
-        return products;
     }
 
     private void rewashPizzaMaker() {

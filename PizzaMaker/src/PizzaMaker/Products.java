@@ -1,7 +1,5 @@
 package PizzaMaker;
 
-import java.util.Scanner;
-
 public class Products {
     private double pizzaPad;
     private double cheese;
@@ -17,24 +15,8 @@ public class Products {
         this.tomatoes = tomatoes;
     }
 
-    public void addProducts() {
-        System.out.println("Add products to Pizza Maker");
-        Scanner pizzaMakerInput = new Scanner(System.in);
+    public void addProducts(double pizzaPad, double cheese, double pizzaSauce, double sausage, double tomatoes) {
 
-        System.out.println("Pizza pads:");
-        double pizzaPad = pizzaMakerInput.nextInt();
-
-        System.out.println("Cheese:");
-        double cheese = pizzaMakerInput.nextInt();
-
-        System.out.println("Pizza sauce:");
-        double pizzaSauce = pizzaMakerInput.nextInt();
-
-        System.out.println("Sausages:");
-        double sausage = pizzaMakerInput.nextInt();
-
-        System.out.println("Tomatoes:");
-        double tomatoes = pizzaMakerInput.nextInt();
 
         this.setPizzaPad(this.getPizzaPad() + pizzaPad);
         this.setCheese(this.getCheese() + cheese);
@@ -66,13 +48,12 @@ public class Products {
 
     @Override
     public String toString() {
-        return "Products{" +
-                "pizzaPad=" + pizzaPad +
-                ", cheese=" + cheese +
-                ", pizzaSauce=" + pizzaSauce +
-                ", sausage=" + sausage +
-                ", tomatoes=" + tomatoes +
-                '}';
+        return "Products: " +
+                "pizza pads = " + pizzaPad +
+                ", cheese = " + cheese +
+                ", pizza sauce = " + pizzaSauce +
+                ", sausages = " + sausage +
+                ", tomatoes = " + tomatoes;
     }
 
     //GETTERS

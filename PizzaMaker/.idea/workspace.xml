@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dda14afa-1eab-4f29-bf22-c2abdd0a2c92" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PizzaMaker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PizzaMaker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PizzaMaker/PizzaMaker/Interfaces/InterfacePizzaMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaMaker/PizzaMaker/Interfaces/InterfacePizzaMaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PizzaMaker/PizzaMaker/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaMaker/PizzaMaker/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PizzaMaker/PizzaMaker/PizzaMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaMaker/PizzaMaker/PizzaMaker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PizzaMaker/PizzaMaker/Products.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PizzaMaker/PizzaMaker/Products.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PizzaMaker/Interfaces/InterfacePizzaMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PizzaMaker/Interfaces/InterfacePizzaMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PizzaMaker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PizzaMaker/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PizzaMaker/PizzaMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PizzaMaker/PizzaMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PizzaMaker/PizzaMakersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PizzaMaker/PizzaMakersService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PizzaMaker/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PizzaMaker/Products.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,14 +18,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PizzaMaker/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+            <state relative-caret-position="493">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PizzaMaker.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PizzaMaker/PizzaMaker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Products.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PizzaMaker/Products.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="51" column="44" lean-forward="true" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -51,11 +60,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/PizzaMaker/Interfaces/InterfacePizzaMaker.java" />
-        <option value="$PROJECT_DIR$/src/PizzaMaker/PizzaMaker.java" />
-        <option value="$PROJECT_DIR$/src/PizzaMaker/Products.java" />
         <option value="$PROJECT_DIR$/src/PizzaMaker/PizzaMakersService.java" />
         <option value="$PROJECT_DIR$/src/PizzaMaker/PizzaRecipe.java" />
         <option value="$PROJECT_DIR$/src/PizzaMaker/Main.java" />
+        <option value="$PROJECT_DIR$/src/PizzaMaker/PizzaMaker.java" />
+        <option value="$PROJECT_DIR$/src/PizzaMaker/Products.java" />
       </list>
     </option>
   </component>
@@ -104,7 +113,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Pamoka10" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/CoffeeMachine" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -192,6 +201,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -199,14 +209,14 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5014641" side_tool="true" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50292826" side_tool="true" visible="true" weight="0.32911393" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" visible="true" weight="0.32911393" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49707174" visible="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -225,24 +235,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/PizzaMaker/PizzaMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PizzaMaker/PizzaMakersService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PizzaMaker/Products.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="53" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -266,10 +262,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/PizzaMaker/Products.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="44" lean-forward="true" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PizzaMaker/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PizzaMaker/PizzaMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
